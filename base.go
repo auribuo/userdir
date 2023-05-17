@@ -4,7 +4,7 @@ package userdir
 
 import (
 	"os"
-	"filepath"
+	"path/filepath"
 )
 
 type userdirDefault struct{}
