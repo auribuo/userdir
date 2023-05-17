@@ -26,5 +26,5 @@ func (u *userdirDefault) Data() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return filepath..Join(home, ".local", "share"), nil
+	return filepath.Join(home, ".local", "share"), nil
 }
